@@ -1,0 +1,11 @@
+# Secrets and signing — never commit
+.env
+.env.*
+!.env.example
+keystore.properties
+*.jks
+*.keystore
+*.p12
+secrets/
+SECRETS.md
+**/local.properties
