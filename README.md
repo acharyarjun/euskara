@@ -8,7 +8,7 @@ This repository publishes the Euskara Batua **web app** on GitHub Pages. It is n
 
 ## What’s here
 
-Version **1.1.0** of the production web build, with asset and router paths rewritten for the Pages base `/euskara/`.
+Version **1.1.1** of the production web build, with asset and router paths rewritten for the Pages base `/euskara/`.
 
 The original application source lived in a Cursor Origin repository created by a cloud agent. That Origin repo was not accessible when this GitHub repository was created, so this tree contains the published web app (HTML, CSS, JS, icons and legal pages), not the full TypeScript/Vite source. A later commit can add the source if it becomes available.
 

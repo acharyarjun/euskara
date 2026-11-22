@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+
+# The old manual address now opens the course.
+RewriteRule ^euskera\.html$ / [R=301,L]
+
+# Static files and the privacy page stay as files.
+RewriteRule ^privacy/ - [L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+RewriteRule ^ index.html [L]
